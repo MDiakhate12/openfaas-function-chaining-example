@@ -5,7 +5,8 @@
 > Prerequisite: Make sure be logged into your docker registry account from your command line <br>
 
 ## Check you openfaas gateway URL
-Look for EXTERNAL-IP field of the "openfaas-external" service
+Look for the "EXTERNAL-IP" field of the "gateway-external" service
+> Note: This is the public URL of your OPENFAAS API GATEWAY
 ```
 kubectl get svc -n openfaas
 ```
