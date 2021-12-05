@@ -98,7 +98,7 @@ module.exports = async (config) => {
 
 ## Deploy your function
 ```
-faas-cli up [YOUR FUNCTION NAME].yml
+faas-cli up -f [YOUR FUNCTION NAME].yml
 ```
 
 
