@@ -11,8 +11,8 @@ kubectl get svc -n openfaas
 ```
 
 Your output should be similar to this <br>
-![multiplication](https://970-cs-835634686586-default.cs-europe-west1-iuzs.cloudshell.dev/files/download/?id=3b5ecc56-3ded-48e8-90c1-dace248ada42)
-In following parts, replace all [YOUR OPENFAAS GATEWAY URL] or [YOUR OPENFAAS GATEWAY IP] with respectively your own gateway url or external ip
+![image](https://970-cs-835634686586-default.cs-europe-west1-iuzs.cloudshell.dev/files/download/?id=3d7c2e53-416f-4926-8d0d-47cf8a7efc75) <br>
+In following parts, replace all [YOUR OPENFAAS GATEWAY URL] or [YOUR OPENFAAS GATEWAY IP] with respectively your own gateway url or external ip <br>
 You should also use your own docker registry
 
 ## Clone the repo
