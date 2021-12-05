@@ -1,0 +1,10 @@
+version: 1.0
+provider:
+  name: openfaas
+  gateway: http://35.187.36.236:8080
+functions:
+  diaf-square:
+    lang: node10-express-service
+    handler: ./diaf-square
+    image: docker.io/mdiakhate12/diaf-square:latest
+

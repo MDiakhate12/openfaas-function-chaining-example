@@ -1,0 +1,9 @@
+version: 1.0
+provider:
+  name: openfaas
+functions:
+  diaf-addition:
+    lang: node10-express-service
+    handler: ./diaf-addition
+    image: docker.io/mdiakhate12/diaf-addition:latest
+
