@@ -11,7 +11,7 @@ kubectl get svc -n openfaas
 ```
 
 Your output should be similar to this <br>
-![image](https://970-cs-835634686586-default.cs-europe-west1-iuzs.cloudshell.dev/files/download/?id=3d7c2e53-416f-4926-8d0d-47cf8a7efc75) <br>
+<img src="https://raw.githubusercontent.com/MDiakhate12/openfaas-function-chaining-example/main/kubectl_openfaas.png"> <br>
 In following parts, replace all [YOUR OPENFAAS GATEWAY URL] or [YOUR OPENFAAS GATEWAY IP] with respectively your own gateway url or external ip <br>
 You should also use your own docker registry
 
